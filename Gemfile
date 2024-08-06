@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "fastlane"
+gem "fastlane", ">= 2.211.0"
 gem "xcov"
 gem "fastlane-plugin-json"
 
