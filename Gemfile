@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "fastlane"
-gem "xcov"
+gem "xcov", ">= 1.9.0"
 gem "fastlane-plugin-json"
 
 plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
